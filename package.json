@@ -1,6 +1,7 @@
 {
-  "license": "0BSD",
-  "main": "index.js",
+  "name": "iraq-market",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,6 +11,9 @@
   "dependencies": {
     "expo": "~54.0.23",
     "expo-status-bar": "~3.0.8",
+    "expo-router": "^3.4.7",
+    "react-native-maps": "1.10.2",
+    "firebase": "10.8.0",
     "react": "19.1.0",
     "react-native": "0.81.5",
     "@expo/vector-icons": "^15.0.3",
